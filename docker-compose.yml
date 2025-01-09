@@ -1,6 +1,6 @@
 services:
   webui:
-    image: "docker pull ghcr.io/peterclemenko/sd-webui-forge-docker:latest"
+    image: "ghcr.io/peterclemenko/sd-webui-forge-docker:latest"
     # build: .
     volumes:
       - "./data:/app/sd-webui"
