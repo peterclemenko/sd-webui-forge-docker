@@ -29,5 +29,7 @@ else
   echo "Files found, starting..."
   cd /app/sd-webui
   git pull
+  pwd
+  ls
   exec /app/sd-webui/webui.sh $ARGS
 fi
